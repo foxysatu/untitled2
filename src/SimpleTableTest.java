@@ -4,7 +4,7 @@ import java.util.*;
 public class SimpleTableTest extends JFrame
 {
     // Данные для таблиц
-    private Object[][] array = new String[][] {{ "Сахар" , "кг", "1.5" },
+    private Object[][] array = new String[][] {{ "Книга" , "кг", "1.5" },
             { "Мука"  , "кг", "4.0" },
             { "Молоко", "л" , "2.2" }};
     // Заголовки столбцов

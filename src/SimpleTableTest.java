@@ -8,7 +8,7 @@ public class SimpleTableTest extends JFrame
             { "Ранобэ"  , "Боевик", "40" },
             { "Манга", "Повседневноть" , "30" }};
     // Заголовки столбцов
-    private Object[] columnsHeader = new String[] {"Вариант", "Жанр",
+    private Object[] columnsHeader = new String[] {"Вариант", "Жанр",//
             "КОличесто страниц"};
     public SimpleTableTest() {
         super("Простой пример с JTable");

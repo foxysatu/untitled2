@@ -4,12 +4,12 @@ import java.util.*;
 public class SimpleTableTest extends JFrame
 {
     // Данные для таблиц
-    private Object[][] array = new String[][] {{ "Книга" , "кг", "1.5" },
-            { "Мука"  , "кг", "4.0" },
-            { "Молоко", "л" , "2.2" }};
+    private Object[][] array = new String[][] {{ "Книга" , "Романтика", "120" },
+            { "Ранобэ"  , "Боевик", "40" },
+            { "Манга", "Повседневноть" , "30" }};
     // Заголовки столбцов
-    private Object[] columnsHeader = new String[] {"Наименование", "Ед.измерения",
-            "Количество"};
+    private Object[] columnsHeader = new String[] {"Вариант", "Жанр",
+            "КОличесто страниц"};
     public SimpleTableTest() {
         super("Простой пример с JTable");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
